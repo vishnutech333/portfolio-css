@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #eef1f2;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+header nav ul li .contact-btn {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.eat{
+    background-color: black;
+    font-style:italic;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    margin: 30px 10%;
+    border-radius: 10px;
+}
+.bio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 50px;
+    
+}
+.bio-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.bio-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 50;
+}
+.bio-text .download-btn {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin:5%;
+}
+.project-card {
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+.project-card h3 {
+    font-size: 24px;
+    color: #ff6347;
+    margin-bottom: 15px;
+}
+.project-card p {
+    font-size: 16px;
+    color: #333;
+}
+#skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #e0e0e0;
+}
+.skills-column {
+    width: 40%;
+}
+.skill {
+    margin-bottom: 20px;
+    padding: 20px,20px;
+}
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+.progress {
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 10px;
+    width: 50%;
+}
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+}
+.progress-bar.html { width: 90%; background-color: #264de4; }
+.progress-bar.css { width: 90%; background-color: #264de4; }
+.progress-bar.java { width: 70%; background-color: #264de4; }
+.progress-bar.javascript { width: 65%; background-color: #264de4; }
+.progress-bar.angular { width: 60%; background-color: #264de4; }
+.progress-bar.english { width: 85%; background-color: #264de4; }
+.progress-bar.kannada { width: 70%; background-color: #264de4; }
+.progress-bar.hindi { width: 75%; background-color: #264de4; }
+#contact {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+#contact form {
+    display: flex;
+    flex-direction: row;
+}
+#contact input, #contact textarea {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+#contact button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
